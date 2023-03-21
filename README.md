@@ -2,11 +2,11 @@
 
 Set Timers and Alarms
 
-<a href='https://alfred.app/workflows/vitor/shrieking-chimes'>⤓ Install on the Alfred Gallery</a>
+[⤓ Install on the Alfred Gallery](https://alfred.app/workflows/vitor/shrieking-chimes)
 
 ## Usage
 
-Set a timer via the Timer Keyword (default: `timer`) followed by a number. It defaults to minutes but you can specify hours or seconds.
+Set a timer via the `timer` keyword followed by a number. Minutes are the default but you can specify hours or seconds.
 
 ![Setting a timer for 10 minutes](Workflow/images/about/timerminutes.png)
 
@@ -14,7 +14,7 @@ Set a timer via the Timer Keyword (default: `timer`) followed by a number. It de
 
 ![Setting a timer for 34 seconds](Workflow/images/about/timerseconds.png)
 
-Set an alarm via the Alarm Keyword (default: `alarm`) followed by a time.
+Set an alarm via the `alarm` keyword followed by a time.
 
 ![Setting an alarm with 24 hour clock](Workflow/images/about/alarm24.png)
 
