@@ -576,7 +576,7 @@ function run(argv) {
 	<key>readme</key>
 	<string>## Usage
 
-Set a timer via the Timer Keyword (default: `timer`) followed by a number. It defaults to minutes but you can specify hours or seconds.
+Set a timer via the `timer` keyword followed by a number. Minutes are the default but you can specify hours or seconds.
 
 ![Setting a timer for 10 minutes](images/about/timerminutes.png)
 
@@ -584,7 +584,7 @@ Set a timer via the Timer Keyword (default: `timer`) followed by a number. It de
 
 ![Setting a timer for 34 seconds](images/about/timerseconds.png)
 
-Set an alarm via the Alarm Keyword (default: `alarm`) followed by a time.
+Set an alarm via the `alarm` keyword followed by a time.
 
 ![Setting an alarm with 24 hour clock](images/about/alarm24.png)
 
@@ -747,8 +747,6 @@ Edit alarms and timers in the macOS Clock app.</string>
 			<string>timer_keyword</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>2023.1</string>
 	<key>webaddress</key>
