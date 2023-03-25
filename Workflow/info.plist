@@ -461,17 +461,20 @@
     }]})
   }
 
-  // Convert seconds to clock
-  const date = new Date(0)
-  date.setSeconds(seconds)
+  // Calculate clock
+  const date = new Date()
+  date.setSeconds(date.getSeconds() + seconds)
   const clock = date.toISOString().slice(11, 19)
 
   // Output
-  return JSON.stringify({ items: [{
-    title: `Timer for ${description}`,
-    subtitle: clock,
-    arg: `timer\n${seconds}`
-  }]})
+  return JSON.stringify({
+    rerun: 0.2,
+    items: [{
+      title: `Timer for ${description}`,
+      subtitle: `Ring at ${clock}`,
+      arg: `timer\n${seconds}`
+    }]
+  })
 }
 
 function run(argv) {
