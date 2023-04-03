@@ -464,7 +464,7 @@
   // Calculate clock
   const date = new Date()
   date.setSeconds(date.getSeconds() + seconds)
-  const clock = date.toISOString().slice(11, 19)
+  const clock = date.toTimeString().slice(0, 5)
 
   // Output
   return JSON.stringify({
