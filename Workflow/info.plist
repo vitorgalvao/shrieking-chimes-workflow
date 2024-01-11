@@ -71,6 +71,21 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5FBC023E-6923-465E-82EB-A9BB8075084F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1FB192E-A7F3-499E-B521-F421609CAB0A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>615D0C67-43A8-454A-9426-815172FAA411</key>
 		<array>
 			<dict>
@@ -145,11 +160,26 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B254A88A-0383-431B-8997-CEE9A759DB1B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5FBC023E-6923-465E-82EB-A9BB8075084F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D8292F54-C660-4CB9-81D7-2D05F6A4A989</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E4BE00F3-AF3A-4256-A4EA-1EF922F73FCF</string>
+				<string>B254A88A-0383-431B-8997-CEE9A759DB1B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -167,21 +197,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E4BE00F3-AF3A-4256-A4EA-1EF922F73FCF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A1FB192E-A7F3-499E-B521-F421609CAB0A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -519,6 +534,27 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>button1</key>
+				<string>Install Shortcut</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>A Shorcut is required to perform this action.</string>
+				<key>title</key>
+				<string>Shortcut Not Installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>5FBC023E-6923-465E-82EB-A9BB8075084F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -544,7 +580,7 @@ function run(argv) {
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>E4BE00F3-AF3A-4256-A4EA-1EF922F73FCF</string>
+			<string>B254A88A-0383-431B-8997-CEE9A759DB1B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -641,6 +677,15 @@ Edit alarms and timers in the macOS Clock app.</string>
 			<key>ypos</key>
 			<real>275</real>
 		</dict>
+		<key>5FBC023E-6923-465E-82EB-A9BB8075084F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>935</real>
+			<key>ypos</key>
+			<real>415</real>
+		</dict>
 		<key>615D0C67-43A8-454A-9426-815172FAA411</key>
 		<dict>
 			<key>xpos</key>
@@ -660,7 +705,7 @@ Edit alarms and timers in the macOS Clock app.</string>
 			<key>colorindex</key>
 			<integer>9</integer>
 			<key>xpos</key>
-			<real>955</real>
+			<real>1075</real>
 			<key>ypos</key>
 			<real>395</real>
 		</dict>
@@ -685,6 +730,15 @@ Edit alarms and timers in the macOS Clock app.</string>
 			<key>ypos</key>
 			<real>395</real>
 		</dict>
+		<key>B254A88A-0383-431B-8997-CEE9A759DB1B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>865</real>
+			<key>ypos</key>
+			<real>425</real>
+		</dict>
 		<key>D8292F54-C660-4CB9-81D7-2D05F6A4A989</key>
 		<dict>
 			<key>colorindex</key>
@@ -700,15 +754,6 @@ Edit alarms and timers in the macOS Clock app.</string>
 			<real>235</real>
 			<key>ypos</key>
 			<real>305</real>
-		</dict>
-		<key>E4BE00F3-AF3A-4256-A4EA-1EF922F73FCF</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>9</integer>
-			<key>xpos</key>
-			<real>875</real>
-			<key>ypos</key>
-			<real>425</real>
 		</dict>
 		<key>F0A1F9EB-A0F6-4D38-93EF-39E92CF55846</key>
 		<dict>
