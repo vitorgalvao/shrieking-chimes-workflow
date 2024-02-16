@@ -230,6 +230,8 @@
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -290,6 +292,8 @@
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>{var:alarm_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>⌘↩ for adding a label</string>
 				<key>text</key>
@@ -515,6 +519,8 @@ function run(argv) {
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
