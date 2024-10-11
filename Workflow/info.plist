@@ -109,7 +109,7 @@
 				<key>modifiersubtext</key>
 				<string>Alarm Label: {query}</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
